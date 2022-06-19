@@ -2,6 +2,24 @@
 
 Time-ago component for your next React apps.
 
+## 💡 Usage
+
+```ts
+import { useTimeAgo } from 'next-time-ago';
+
+const Home = () => {
+  const { TimeAgo } = useTimeAgo();
+
+  return (
+    <>
+      <TimeAgo date='Feb 1, 1966' />
+    </>
+  );
+}
+
+export default Home;
+```
+
 ## 📜 Changelog
 
 Latest version 0.0.0 (2022-06-12):
