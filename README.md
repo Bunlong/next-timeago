@@ -2,6 +2,20 @@
 
 A lightweight tiny time-ago component for your next React apps.
 
+## 🔧 Install
+
+next-time-ago is available on npm. It can be installed with the following command:
+
+```
+npm install next-time-ago --save
+```
+
+next-time-ago is available on yarn as well. It can be installed with the following command:
+
+```
+yarn add next-time-ago --save
+```
+
 ## 💡 Usage
 
 ```ts
