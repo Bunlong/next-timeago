@@ -1,7 +1,7 @@
 {
   "name": "next-time-ago",
   "version": "0.0.2",
-  "description": "Time-ago component for your next React apps.",
+  "description": "A lightweight tiny time-ago component for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
