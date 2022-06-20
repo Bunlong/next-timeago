@@ -50,7 +50,7 @@ export default Home;
     <tr>
       <td>element</td>
       <td>string | React.ElementType<any></td>
-      <td><code>string | React.ElementType<any></code></td>
+      <td><code>`time`<any></code></td>
       <td>❌</td>
       <td>HTML tag that is used to wrap the live updating string</td>
     </tr>
