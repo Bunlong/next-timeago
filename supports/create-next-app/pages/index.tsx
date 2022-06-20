@@ -6,7 +6,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <TimeAgo />
+      <TimeAgo date='June 19, 2022' />
     </>
   )
 }

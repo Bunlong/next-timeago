@@ -1,6 +1,6 @@
 # next-time-ago
 
-Time-ago component for your next React apps.
+A lightweight tiny time-ago component for your next React apps.
 
 ## 💡 Usage
 
@@ -12,13 +12,51 @@ const Home = () => {
 
   return (
     <>
-      <TimeAgo date='Feb 1, 1966' />
+      <TimeAgo date='June 17, 2022' />
     </>
   );
 }
 
 export default Home;
 ```
+
+## Props
+
+<table>
+  <thead>
+    <tr>
+      <th>Prop</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Require</th>
+      <th>Description</th>
+    </tr>
+  <thead>
+  <tbody>
+    <tr>
+      <td>date</td>
+      <td>string | number | Date</td>
+      <td></td>
+      <td>✔️</td>
+      <td>A date in the past.</td>
+    </tr>
+    <tr>
+      <td>live</td>
+      <td>boolean</td>
+      <td><code>true</code></td>
+      <td>❌</td>
+      <td>Live by default and will auto update it's value.</td>
+    </tr>
+    <tr>
+      <td>element</td>
+      <td>string | React.ElementType<any></td>
+      <td><code>string | React.ElementType<any></code></td>
+      <td>❌</td>
+      <td>HTML tag that is used to wrap the live updating string</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 📜 Changelog
 
