@@ -11,7 +11,15 @@
   "bugs": {
     "url": "https://github.com/Bunlong/next-time-ago.git/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "next-time-ago",
+    "nextjs",
+    "next",
+    "reactjs",
+    "react",
+    "time-ago",
+    "timeago"
+  ],
   "homepage": "https://github.com/Bunlong/next-time-ago",
   "main": "dist/next-time-ago.js",
   "module": "dist/next-time-ago.es.js",
