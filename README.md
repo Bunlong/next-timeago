@@ -2,6 +2,8 @@
 
 A lightweight tiny time-ago component for your next React apps.
 
+[![NPM](https://img.shields.io/npm/v/next-time-ago.svg)](https://www.npmjs.com/package/next-time-ago) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-time-ago) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## 🔧 Install
 
 next-time-ago is available on npm. It can be installed with the following command:
