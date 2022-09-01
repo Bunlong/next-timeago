@@ -8,6 +8,7 @@ function useTimeAgoComponent() {
     live = true,
     element = 'time',
     now = () => Date.now(),
+    locale = 'en-US',
   }: Props) => {
     const [timeNow, setTimeNow] = React.useState(now());
 

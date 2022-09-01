@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <TimeAgo date='June 17, 2022' />
+      <TimeAgo date='June 17, 2022' locale='en-US' />
     </>
   );
 }

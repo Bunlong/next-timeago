@@ -10,4 +10,5 @@ export interface Props {
   live?: boolean;
   element?: string | React.ElementType<any>;
   now?: () => number;
+  locale?: string;
 }
