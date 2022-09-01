@@ -1,8 +1,8 @@
 /* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+// import type { L10nsStrings } from '../formatters/buildFormatter';
 
 // English (Template)
-const strings: L10nsStrings = {
+const strings: any = {
   prefixAgo: null,
   prefixFromNow: null,
   suffixAgo: 'ago',

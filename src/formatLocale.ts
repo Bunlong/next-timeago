@@ -1,6 +1,4 @@
-// @flow
-
-import * as React from 'react'
+// import * as React from 'react'
 // import type { Formatter, Unit, Suffix } from '../index'
 
 type StringOrFn = string | ((value: number, millisDelta: number) => string)
@@ -18,31 +16,31 @@ type NumberArray = [
 ]
 
 export type L10nsStrings = {
-  prefixAgo?: () => void | string,
-  prefixFromNow?: () => void | string,
-  suffixAgo?: () => void | string,
-  suffixFromNow?: () => void | string,
-  second?: () => void | string,
-  seconds?: () => void | string,
-  minute?: () => void | string,
-  minutes?: () => void | string,
-  hour?: () => void | string,
-  hours?: () => void | string,
-  day?: () => void | string,
-  days?: () => void | string,
-  week?: () => void | string,
-  weeks?: () => void | string,
-  month?: () => void | string,
-  months?: () => void | string,
-  year?: () => void | string,
-  years?: () => void | string,
+  prefixAgo?: StringOrFn,
+  prefixFromNow?: StringOrFn,
+  suffixAgo?: StringOrFn,
+  suffixFromNow?: StringOrFn,
+  second?: StringOrFn,
+  seconds?: StringOrFn,
+  minute?: StringOrFn,
+  minutes?: StringOrFn,
+  hour?: StringOrFn,
+  hours?: StringOrFn,
+  day?: StringOrFn,
+  days?: StringOrFn,
+  week?: StringOrFn,
+  weeks?: StringOrFn,
+  month?: StringOrFn,
+  months?: StringOrFn,
+  year?: StringOrFn,
+  years?: StringOrFn,
   wordSeparator?: string,
   numbers?: NumberArray,
 }
 
 // If the numbers array is present, format numbers with it,
 // otherwise just cast the number to a string and return it
-const normalizeNumber = (numbers: NumberArray, value?: number) =>
+const normalizeNumber = (numbers: NumberArray, value: number) =>
   numbers && numbers.length === 10
     ? String(value)
         .split('')
@@ -66,12 +64,12 @@ const normalizeFn =
         )
       : stringOrFn.replace(/%d/g, normalizeNumber(numbers as NumberArray, value))
 
-export default function buildFormatter(strings: L10nsStrings): any {
+export default function formatLocale(strings: any /* L10nsStrings */): any { // Formatter {
   return function formatter(
     _value: number,
     _unit: string,
     suffix: string,
-    _nextFormmater: () => React.ReactNode,
+    epochMilliseconds: number,
     now: () => number,
   ) {
     const current = now()
@@ -80,7 +78,7 @@ export default function buildFormatter(strings: L10nsStrings): any {
     // convert weeks to days if strings don't handle weeks
     if (unit === 'week' && !strings.week && !strings.weeks) {
       const days = Math.round(
-        Math.abs(current) / (1000 * 60 * 60 * 24),
+        Math.abs(epochMilliseconds - current) / (1000 * 60 * 60 * 24),
       )
       value = days
       unit = 'day'
@@ -89,7 +87,7 @@ export default function buildFormatter(strings: L10nsStrings): any {
     // create a normalize function for given value
     const normalize = normalizeFn(
       value,
-      current,
+      current - epochMilliseconds,
       strings.numbers != null ? strings.numbers : undefined,
     )
 
@@ -108,7 +106,7 @@ export default function buildFormatter(strings: L10nsStrings): any {
     const isPlural = value > 1
     if (isPlural) {
       const stringFn: StringOrFn =
-        (strings[unit + 's'] || strings[unit] || '%d ' + unit
+        strings[unit + 's'] || strings[unit] || '%d ' + unit
       dateString.push(normalize(stringFn))
     } else {
       const stringFn: StringOrFn =
