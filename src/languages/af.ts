@@ -1,6 +1,7 @@
 /* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+import type { L10nsStrings } from '../formatLocale';
 
+// Afrikaans ( af )
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,

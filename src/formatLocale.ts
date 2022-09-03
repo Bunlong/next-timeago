@@ -1,7 +1,7 @@
 // import * as React from 'react'
 // import type { Formatter, Unit, Suffix } from '../index'
 
-type StringOrFn = string | ((value: number, millisDelta: number) => string)
+type StringOrFn = string | ((value: number, millisDelta: number) => string) | null
 type NumberArray = [
   string,
   string,
@@ -62,7 +62,7 @@ const normalizeFn =
           /%d/g,
           normalizeNumber(numbers as NumberArray, value),
         )
-      : stringOrFn.replace(/%d/g, normalizeNumber(numbers as NumberArray, value))
+      : stringOrFn?.replace(/%d/g, normalizeNumber(numbers as NumberArray, value))
 
 export default function formatLocale(strings: any /* L10nsStrings */): any { // Formatter {
   return function formatter(
@@ -96,10 +96,10 @@ export default function formatLocale(strings: any /* L10nsStrings */): any { // 
 
     // handle prefixes
     if (suffix === 'ago' && strings.prefixAgo) {
-      dateString.push(normalize(strings.prefixAgo))
+      dateString.push(normalize(strings.prefixAgo) as string)
     }
     if (suffix === 'from now' && strings.prefixFromNow) {
-      dateString.push(normalize(strings.prefixFromNow))
+      dateString.push(normalize(strings.prefixFromNow) as string)
     }
 
     // Handle Main number and unit
@@ -107,19 +107,19 @@ export default function formatLocale(strings: any /* L10nsStrings */): any { // 
     if (isPlural) {
       const stringFn: StringOrFn =
         strings[unit + 's'] || strings[unit] || '%d ' + unit
-      dateString.push(normalize(stringFn))
+      dateString.push(normalize(stringFn) as string)
     } else {
       const stringFn: StringOrFn =
         strings[unit] || strings[unit + 's'] || '%d ' + unit
-      dateString.push(normalize(stringFn))
+      dateString.push(normalize(stringFn) as string)
     }
 
     // Handle Suffixes
     if (suffix === 'ago' && strings.suffixAgo) {
-      dateString.push(normalize(strings.suffixAgo))
+      dateString.push(normalize(strings.suffixAgo) as string)
     }
     if (suffix === 'from now' && strings.suffixFromNow) {
-      dateString.push(normalize(strings.suffixFromNow))
+      dateString.push(normalize(strings.suffixFromNow) as string)
     }
 
     // join the array into a string and return it
