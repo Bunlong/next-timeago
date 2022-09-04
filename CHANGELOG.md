@@ -2,7 +2,7 @@
 
 ## ✨ Features
 
-  * Add locale
+  * Support for various languages
 
 Credits
 

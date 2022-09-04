@@ -1,4 +1,4 @@
-/* Welsh ( az ) */
+/* Welsh ( cy ) */
 import type { L10nsStrings } from '../model';
 
 const strings: L10nsStrings = {

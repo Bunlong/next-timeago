@@ -1,4 +1,4 @@
-/* Persion shortened ( fa-short ) */
+/* Persian shortened ( fa-short ) */
 import type { L10nsStrings } from '../model';
 
 const hasIntl = typeof Intl !== 'undefined' && Intl.NumberFormat != null;

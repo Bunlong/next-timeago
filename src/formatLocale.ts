@@ -35,7 +35,6 @@ const normalizeFn =
         );
 
 export default function formatLocale(strings: L10nsStrings): Formatter {
-  // Formatter {
   return function formatter(
     _value: number,
     _unit: Unit,
