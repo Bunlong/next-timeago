@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Italian ( it ) */
+import type { L10nsStrings } from '../model';
 
-// Italian
 const strings: L10nsStrings = {
   suffixAgo: 'fa',
   suffixFromNow: 'da ora',
