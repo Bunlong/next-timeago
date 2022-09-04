@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Russian ( ru ) */
+import type { L10nsStrings } from '../model';
 
-// Russian
 function numpf(n: number, f: string, s: string, t: string): string {
   // f - 1, 21, 31, ...
   // s - 2-4, 22-24, 32-34 ...
