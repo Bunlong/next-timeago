@@ -1,5 +1,5 @@
 /* @flow */
-import type { L10nsStrings } from '../formatLocale';
+import type { L10nsStrings } from '../model';
 
 // Afrikaans ( af )
 const strings: L10nsStrings = {

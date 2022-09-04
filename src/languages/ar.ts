@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatLocale';
+/* Arabic ( ar ) */
+import type { L10nsStrings } from '../model';
 
-// Arabic ( ar )
 function numpf(n: number, a: any) {
   return a[
     n === 0

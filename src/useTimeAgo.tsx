@@ -1,8 +1,8 @@
 import React from 'react';
-import { Props, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR } from './model';
+import { Props, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, Unit } from './model';
 import format from './format';
 import formatLocale from './formatLocale';
-import enStrings from './languages/en';
+import enStrings from './languages/az';
 
 function useTimeAgoComponent() {
   const TimeAgoComponent = ({
@@ -73,10 +73,10 @@ function useTimeAgoComponent() {
         : seconds < YEAR
         ? [Math.round(seconds / MONTH), 'month']
         : [Math.round(seconds / YEAR), 'year'];
-    
+
     if (locale) {
       const format = formatLocale(enStrings);
-      return <Element>{format(value, unit, suffix, timeThen, now)}</Element>;
+      return <Element>{format(value, unit as Unit, suffix, timeThen, now)}</Element>;
     }
 
     return <Element>{format(value, unit, suffix)}</Element>;
