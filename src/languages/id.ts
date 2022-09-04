@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Indonesian ( id ) */
+import type { L10nsStrings } from '../model';
 
-// Indonesian
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
