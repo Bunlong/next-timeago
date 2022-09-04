@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Korean ( ko ) */
+import type { L10nsStrings } from '../model';
 
-// Korean
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
