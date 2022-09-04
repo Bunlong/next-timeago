@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Hindi ( hi ) */
+import type { L10nsStrings } from '../model';
 
-// Hindi (Template)
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: 'अब से',
