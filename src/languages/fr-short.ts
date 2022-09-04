@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* French shortened ( fr-short ) */
+import type { L10nsStrings } from '../model';
 
-// French shortened
 const strings: L10nsStrings = {
   prefixAgo: 'il y a',
   prefixFromNow: "d'ici",
