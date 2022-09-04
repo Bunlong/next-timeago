@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Lithuanian ( lt ) */
+import type { L10nsStrings } from '../model';
 
-// Lithuanian
 const strings: L10nsStrings = {
   prefixAgo: 'prieš',
   prefixFromNow: null,
