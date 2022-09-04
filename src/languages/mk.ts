@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Macedonian ( mk ) */
+import type { L10nsStrings } from '../model';
 
-// Macedonian
 const strings: L10nsStrings = {
   prefixAgo: 'пред',
   prefixFromNow: 'за',
