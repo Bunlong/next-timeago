@@ -2,7 +2,7 @@ import React from 'react';
 import { Props, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, Unit } from './model';
 import format from './format';
 import formatLocale from './formatLocale';
-import enStrings from './languages/az';
+import enStrings from './languages/kh';
 
 function useTimeAgoComponent() {
   const TimeAgoComponent = ({
@@ -76,7 +76,9 @@ function useTimeAgoComponent() {
 
     if (locale) {
       const format = formatLocale(enStrings);
-      return <Element>{format(value, unit as Unit, suffix, timeThen, now)}</Element>;
+      return (
+        <Element>{format(value, unit as Unit, suffix, timeThen, now)}</Element>
+      );
     }
 
     return <Element>{format(value, unit, suffix)}</Element>;
