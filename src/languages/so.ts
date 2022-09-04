@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Somali ( so ) */
+import type { L10nsStrings } from '../model';
 
-// Somali
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
