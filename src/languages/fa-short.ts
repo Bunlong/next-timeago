@@ -1,9 +1,8 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Persion shortened ( fa-short ) */
+import type { L10nsStrings } from '../model';
 
 const hasIntl = typeof Intl !== 'undefined' && Intl.NumberFormat != null;
 
-// persion shortened
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,

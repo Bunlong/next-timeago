@@ -2,7 +2,7 @@ import React from 'react';
 import { Props, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, Unit } from './model';
 import format from './format';
 import formatLocale from './formatLocale';
-import enStrings from './languages/fa';
+import enStrings from './languages/fa-short';
 
 function useTimeAgoComponent() {
   const TimeAgoComponent = ({
