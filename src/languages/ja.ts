@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Japanese ( ja ) */
+import type { L10nsStrings } from '../model';
 
-// Japanese
 const strings: L10nsStrings = {
   prefixAgo: '',
   prefixFromNow: '今から',
