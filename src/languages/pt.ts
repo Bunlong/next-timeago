@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Portuguese ( pt ) */
+import type { L10nsStrings } from '../model';
 
-// Portuguese
 const strings: L10nsStrings = {
   suffixAgo: 'atrás',
   suffixFromNow: 'a partir de agora',
