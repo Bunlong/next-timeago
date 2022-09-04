@@ -1,8 +1,7 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Czech ( cs ) */
+import type { L10nsStrings } from '../model';
 
-// Czech
-function f(n: number, d: number, a: $ReadOnlyArray<string>) {
+function f(n: number, d: number, a: Array<string>) {
   return a[d >= 0 ? 0 : a.length === 2 || n < 5 ? 1 : 2];
 }
 
