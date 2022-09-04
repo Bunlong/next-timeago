@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Swedish ( sv ) */
+import type { L10nsStrings } from '../model';
 
-// Swedish
 const strings: L10nsStrings = {
   prefixAgo: 'för',
   prefixFromNow: 'om',
