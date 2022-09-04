@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Danish ( da ) */
+import type { L10nsStrings } from '../model';
 
-// Danish
 const strings: L10nsStrings = {
   prefixAgo: 'for',
   prefixFromNow: 'om',
