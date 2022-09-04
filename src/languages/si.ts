@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Sinhalese ( si ) */
+import type { L10nsStrings } from '../model';
 
-// Sinhalese (SI)
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
