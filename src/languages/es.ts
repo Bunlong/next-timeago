@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Spanish ( es ) */
+import type { L10nsStrings } from '../model';
 
-// Spanish
 const strings: L10nsStrings = {
   prefixAgo: 'hace',
   prefixFromNow: 'dentro de',
