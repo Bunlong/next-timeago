@@ -1,41 +1,40 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Estonian ( et ) */
+import type { L10nsStrings } from '../model';
 
-// Estonian
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
   suffixAgo: 'tagasi',
   suffixFromNow: 'pärast',
-  seconds: function (n, d) {
+  seconds: function (_n, d) {
     return d < 0 ? 'vähem kui minuti aja' : 'vähem kui minut aega';
   },
-  minute: function (n, d) {
+  minute: function (_n, d) {
     return d < 0 ? 'umbes minuti aja' : 'umbes minut aega';
   },
-  minutes: function (n, d) {
+  minutes: function (_n, d) {
     return d < 0 ? '%d minuti' : '%d minutit';
   },
-  hour: function (n, d) {
+  hour: function (_n, d) {
     return d < 0 ? 'umbes tunni aja' : 'umbes tund aega';
   },
-  hours: function (n, d) {
+  hours: function (_n, d) {
     return d < 0 ? '%d tunni' : '%d tundi';
   },
-  day: function (n, d) {
+  day: function (_n, d) {
     return d < 0 ? 'umbes päeva' : 'umbes päev';
   },
   days: '%d päeva',
-  month: function (n, d) {
+  month: function (_n, d) {
     return d < 0 ? 'umbes kuu aja' : 'umbes kuu aega';
   },
-  months: function (n, d) {
+  months: function (_n, d) {
     return d < 0 ? '%d kuu' : '%d kuud';
   },
-  year: function (n, d) {
+  year: function (_n, d) {
     return d < 0 ? 'umbes aasta aja' : 'umbes aasta aega';
   },
-  years: function (n, d) {
+  years: function (_n, d) {
     return d < 0 ? '%d aasta' : '%d aastat';
   },
 };
