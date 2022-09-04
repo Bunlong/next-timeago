@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Latvian ( lv ) */
+import type { L10nsStrings } from '../model';
 
-// Latvian
 const strings: L10nsStrings = {
   prefixAgo: 'pirms',
   prefixFromNow: null,
