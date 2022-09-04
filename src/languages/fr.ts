@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* French ( fr ) */
+import type { L10nsStrings } from '../model';
 
-// French
 const strings: L10nsStrings = {
   // environ ~= about, it's optional
   prefixAgo: 'il y a',
