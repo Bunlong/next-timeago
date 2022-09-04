@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Brazilian Portuguese ( pt-br ) */
+import type { L10nsStrings } from '../model';
 
-// Brazilian Portuguese
 const strings: L10nsStrings = {
   prefixAgo: 'há',
   prefixFromNow: 'em',
