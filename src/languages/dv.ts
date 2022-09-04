@@ -1,5 +1,5 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Divehi, Dhivehi, Maldivian ( dv ) */
+import type { L10nsStrings } from '../model';
 
 /**
  * Dhivehi time in Thaana for timeago.js
