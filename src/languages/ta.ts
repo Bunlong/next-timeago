@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Tamil ( ta ) */
+import type { L10nsStrings } from '../model';
 
-// English (Template)
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
