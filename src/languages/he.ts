@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Hebrew ( he ) */
+import type { L10nsStrings } from '../model';
 
-// Hebrew
 const strings: L10nsStrings = {
   prefixAgo: 'לפני',
   prefixFromNow: 'עוד',
