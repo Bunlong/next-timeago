@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Armenian ( hy ) */
+import type { L10nsStrings } from '../model';
 
-// Armenian
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
