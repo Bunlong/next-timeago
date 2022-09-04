@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Vietnamese ( vi ) */
+import type { L10nsStrings } from '../model';
 
-// Vietnamese
 const strings: L10nsStrings = {
   prefixAgo: 'cách đây',
   prefixFromNow: null,
