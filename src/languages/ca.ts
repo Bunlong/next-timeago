@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Catalan ( ca ) */
+import type { L10nsStrings } from '../model';
 
-// Catalan
 const strings: L10nsStrings = {
   prefixAgo: 'fa',
   prefixFromNow: "d'aqui a",
