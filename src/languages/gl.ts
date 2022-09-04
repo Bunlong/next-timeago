@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Galician ( gl ) */
+import type { L10nsStrings } from '../model';
 
-// Galician
 const strings: L10nsStrings = {
   prefixAgo: 'hai',
   prefixFromNow: 'dentro de',
