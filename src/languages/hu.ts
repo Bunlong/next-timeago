@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Hungarian ( hu ) */
+import type { L10nsStrings } from '../model';
 
-// Hungarian
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
