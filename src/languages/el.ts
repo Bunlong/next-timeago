@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Greek ( el ) */
+import type { L10nsStrings } from '../model';
 
-// Greek
 const strings: L10nsStrings = {
   prefixAgo: 'πριν',
   prefixFromNow: 'σε',
