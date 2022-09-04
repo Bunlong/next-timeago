@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Traditional Chinese, zh-tw ( zh-TW ) */
+import type { L10nsStrings } from '../model';
 
-// Traditional Chinese, zh-tw
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
