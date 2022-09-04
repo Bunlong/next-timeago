@@ -1,5 +1,5 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Icelandic ( is ) */
+import type { L10nsStrings } from '../model';
 
 const strings: L10nsStrings = {
   prefixAgo: 'fyrir',
