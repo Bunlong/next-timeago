@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Romanian ( ro ) */
+import type { L10nsStrings } from '../model';
 
-// Romanian
 const strings: L10nsStrings = {
   prefixAgo: 'acum',
   prefixFromNow: 'in timp de',
