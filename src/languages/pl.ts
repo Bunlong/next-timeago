@@ -1,8 +1,7 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Polish ( pl ) */
+import type { L10nsStrings } from '../model';
 
-// Polish
-function numpf(n, s, t) {
+function numpf(n: number, s: string, t: string) {
   // s - 2-4, 22-24, 32-34 ...
   // t - 5-21, 25-31, ...
   const n10 = n % 10;
