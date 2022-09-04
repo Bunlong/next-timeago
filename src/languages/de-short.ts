@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* German shortened ( de-short ) */
+import type { L10nsStrings } from '../model';
 
-// German shortened
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
