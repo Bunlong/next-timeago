@@ -1,8 +1,8 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Slovenian with support for dual ( sl ) */
+import type { L10nsStrings } from '../model';
 
-// Slovenian with support for dual
-function numpf(n, a) {
+// TODO
+function numpf(n: number, a: any) {
   return a[
     n % 100 === 1
       ? 1
