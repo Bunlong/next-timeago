@@ -1,8 +1,7 @@
-/* @flow */
-// import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Basque ( eu ) */
+import type { L10nsStrings } from '../model';
 
-// const strings: L10nsStrings = {
-const strings: any = {
+const strings: L10nsStrings = {
   prefixAgo: 'duela',
   prefixFromNow: 'hemendik',
   suffixAgo: '',
