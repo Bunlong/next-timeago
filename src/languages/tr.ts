@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Turkish ( tr ) */
+import type { L10nsStrings } from '../model';
 
-// Turkish
 const strings: L10nsStrings = {
   suffixAgo: 'önce',
   suffixFromNow: 'sonra',
