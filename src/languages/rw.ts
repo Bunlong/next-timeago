@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Kinyarwanda ( rw ) */
+import type { L10nsStrings } from '../model';
 
-// Kinyarwanda
 const strings: L10nsStrings = {
   prefixAgo: 'hashize',
   prefixFromNow: 'mu',
