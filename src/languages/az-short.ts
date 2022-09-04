@@ -1,4 +1,4 @@
-/* Azerbaijani ( az-short ) */
+/* Azerbaijani shortened ( az-short ) */
 import type { L10nsStrings } from '../model';
 
 const strings: L10nsStrings = {

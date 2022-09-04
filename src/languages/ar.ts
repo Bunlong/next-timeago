@@ -1,6 +1,7 @@
 /* Arabic ( ar ) */
 import type { L10nsStrings } from '../model';
 
+// TODO
 function numpf(n: number, a: any) {
   return a[
     n === 0

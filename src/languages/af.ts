@@ -1,7 +1,6 @@
-/* @flow */
+/* Afrikaans ( af ) */
 import type { L10nsStrings } from '../model';
 
-// Afrikaans ( af )
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,

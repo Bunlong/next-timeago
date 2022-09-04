@@ -74,9 +74,9 @@ export default Home;
 
 ## 📜 Changelog
 
-Latest version 0.0.2 (2022-06-20):
+Latest version 0.1.0 (2022-09-04):
 
-  * Add basic TimeAgo component
+  * Add locale
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/react-papaparse/blob/master/CHANGELOG.md).
 
