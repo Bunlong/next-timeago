@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Slovak ( sk ) */
+import type { L10nsStrings } from '../model';
 
-// Slovak
 const strings: L10nsStrings = {
   prefixAgo: 'pred',
   prefixFromNow: null,
