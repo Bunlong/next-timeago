@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Portuguese Brasil shortened ( pt-br-short ) */
+import type { L10nsStrings } from '../model';
 
-// Portuguese Brasil shortened
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
