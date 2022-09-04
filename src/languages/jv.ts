@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Javanesse ( jv ) */
+import type { L10nsStrings } from '../model';
 
-// Javanesse (Boso Jowo)
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
