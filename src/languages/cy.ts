@@ -1,7 +1,6 @@
-/* @flow */
-import type { L10nsStrings } from '../formatters/buildFormatter';
+/* Welsh ( az ) */
+import type { L10nsStrings } from '../model';
 
-// Welsh
 const strings: L10nsStrings = {
   prefixAgo: null,
   prefixFromNow: null,
