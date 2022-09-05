@@ -6,7 +6,13 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <TimeAgo date='June 19, 2022' />
+      <TimeAgo date='August 6, 2022' />
+      <br/>
+      <TimeAgo date='July 1, 2022' locale='kh' />
+      <br/>
+      <TimeAgo date='August 6, 2022 9:00 pm' />
+      <br/>
+      <TimeAgo date='August 6, 2022 20:00' />
     </>
   )
 }

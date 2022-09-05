@@ -1,0 +1,21 @@
+/* Turkish ( tr ) */
+import type { L10nsStrings } from '../model';
+
+const strings: L10nsStrings = {
+  suffixAgo: 'önce',
+  suffixFromNow: 'sonra',
+  second: '1 saniye',
+  seconds: '%d saniye',
+  minute: '1 dakika',
+  minutes: '%d dakika',
+  hour: '1 saat',
+  hours: '%d saat',
+  day: '1 gün',
+  days: '%d gün',
+  month: '1 ay',
+  months: '%d ay',
+  year: '1 yıl',
+  years: '%d yıl',
+};
+
+export default strings;

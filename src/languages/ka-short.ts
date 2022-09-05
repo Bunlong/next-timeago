@@ -1,0 +1,23 @@
+/* Georgian shortened ( ka-short ) */
+import type { L10nsStrings } from '../model';
+
+const strings: L10nsStrings = {
+  prefixAgo: null,
+  prefixFromNow: null,
+  suffixAgo: '',
+  suffixFromNow: '',
+  seconds: '1წმ',
+  minute: '1წთ',
+  minutes: '%dწთ',
+  hour: '1სთ',
+  hours: '%dსთ',
+  day: '1დღე',
+  days: '%dდღე',
+  month: '1თვე',
+  months: '%dთვე',
+  year: '1წ',
+  years: '%dწ',
+  wordSeparator: ' ',
+};
+
+export default strings;
