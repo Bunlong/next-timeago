@@ -2,6 +2,12 @@
 
 A lightweight tiny time-ago component for your next React apps.
 
+## 🎁 Features
+
+* No dependencies
+* Compatible with both JavaScript and TypeScript
+* Support for various languages
+
 ## 🔧 Install
 
 next-time-ago is available on npm. It can be installed with the following command:
@@ -26,7 +32,13 @@ const Home = () => {
 
   return (
     <>
-      <TimeAgo date='June 17, 2022' locale='en-US' />
+      <TimeAgo date='September 1, 2022' locale='kh' />
+
+      <TimeAgo date='September 1, 2022' locale='DE' />
+
+      <TimeAgo date='September 1, 2022 9:00 pm' />
+
+      <TimeAgo date='September 1, 2022 20:00' />
     </>
   );
 }
@@ -56,8 +68,8 @@ export default Home;
     </tr>
     <tr>
       <td>locale</td>
-      <td>string<any></td>
-      <td><code>`en`<any></code></td>
+      <td>string</td>
+      <td><code>en</code></td>
       <td>❌</td>
       <td>Support for various languages.</td>
     </tr>
@@ -71,7 +83,7 @@ export default Home;
     <tr>
       <td>element</td>
       <td>string | React.ElementType<any></td>
-      <td><code>`time`<any></code></td>
+      <td><code>time</code></td>
       <td>❌</td>
       <td>HTML tag that is used to wrap the live updating string.</td>
     </tr>
