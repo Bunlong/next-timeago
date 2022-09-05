@@ -90,7 +90,7 @@ export default Home;
   </tbody>
 </table>
 
-### List of locale codes
+### List of Locale Codes
 
 <table>
   <thead>
