@@ -399,9 +399,9 @@ export default Home;
 
 ## 📜 Changelog
 
-Latest version 0.1.0 (2022-09-04):
+Latest version 0.1.1 (2022-10-12):
 
-  * Support for various languages
+  * Fix added dependencies
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-time-ago/blob/master/CHANGELOG.md).
 

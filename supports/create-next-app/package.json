@@ -11,8 +11,8 @@
   "dependencies": {
     "next": "12.1.6",
     "next-time-ago": "file:../..",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "8.10.66",
