@@ -2,7 +2,7 @@
 
 A lightweight tiny time-ago component for your next React apps.
 
-[![NPM](https://img.shields.io/npm/v/next-time-ago.svg)](https://www.npmjs.com/package/next-time-ago) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-time-ago) [![Build Status](https://api.travis-ci.com/Bunlong/next-time-ago.svg?branch=master)](https://travis-ci.com/Bunlong/next-time-ago) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/next-time-ago.svg)](https://www.npmjs.com/package/next-time-ago) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## 🎁 Features
 
