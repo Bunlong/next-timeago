@@ -36,7 +36,7 @@ const Home = () => {
     <>
       <TimeAgo date='September 1, 2022' locale='kh' />
 
-      <TimeAgo date='September 1, 2022' locale='DE' />
+      <TimeAgo date='September 1, 2022' locale='JA' />
 
       <TimeAgo date='September 1, 2022 9:00 pm' />
 
