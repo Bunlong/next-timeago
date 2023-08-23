@@ -34,13 +34,13 @@ const Home = () => {
 
   return (
     <>
-      <TimeAgo date='September 1, 2022' locale='kh' />
+      <TimeAgo date='July 1, 2023' locale='kh' />
 
-      <TimeAgo date='September 1, 2022' locale='JA' />
+      <TimeAgo date='July 1, 2023' locale='JA' />
 
-      <TimeAgo date='September 1, 2022 9:00 pm' />
+      <TimeAgo date='July 1, 2023 9:00 pm' />
 
-      <TimeAgo date='September 1, 2022 20:00' />
+      <TimeAgo date='July 1, 2023 20:00' />
     </>
   );
 }
