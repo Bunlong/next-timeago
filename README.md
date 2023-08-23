@@ -1,8 +1,8 @@
-# next-time-ago
+# next-timeago
 
-A lightweight tiny time-ago component for your next React apps.
+React timeago component for your next React apps.
 
-[![NPM](https://img.shields.io/npm/v/next-time-ago.svg)](https://www.npmjs.com/package/next-time-ago) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/next-timeago.svg)](https://www.npmjs.com/package/next-timeago) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## 🎁 Features
 
@@ -12,22 +12,22 @@ A lightweight tiny time-ago component for your next React apps.
 
 ## 🔧 Install
 
-next-time-ago is available on npm. It can be installed with the following command:
+next-timeago is available on npm. It can be installed with the following command:
 
 ```
-npm install next-time-ago --save
+npm install next-timeago --save
 ```
 
-next-time-ago is available on yarn as well. It can be installed with the following command:
+next-timeago is available on yarn as well. It can be installed with the following command:
 
 ```
-yarn add next-time-ago --save
+yarn add next-timeago --save
 ```
 
 ## 💡 Usage
 
 ```ts
-import { useTimeAgo } from 'next-time-ago';
+import { useTimeAgo } from 'next-timeago';
 
 const Home = () => {
   const { TimeAgo } = useTimeAgo();
@@ -399,19 +399,19 @@ export default Home;
 
 ## 📜 Changelog
 
-Latest version 0.1.1 (2022-10-12):
+Latest version 0.2.0 (2023-08-23):
 
-  * Fix added dependencies
+  * Upgrade dependencies
 
-Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-time-ago/blob/master/CHANGELOG.md).
+Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-timeago/blob/master/CHANGELOG.md).
 
 ## ❗ Issues
 
-If you think any of the `next-time-ago` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+If you think any of the `next-timeago` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
 
 ## 💪 Contribution
 
-We'd love to have your helping hand on contributions to `next-time-ago` by forking and sending a pull request!
+We'd love to have your helping hand on contributions to `next-timeago` by forking and sending a pull request!
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
 
