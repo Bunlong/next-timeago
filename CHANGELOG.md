@@ -1,3 +1,13 @@
+# 0.2.0 (2023-08-23)
+
+## ✨ Bugs
+
+  * Upgrade dependencies
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 # 0.1.1 (2022-10-12)
 
 ## ✨ Bugs
