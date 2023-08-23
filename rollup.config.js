@@ -7,7 +7,7 @@ import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 
 export default {
-  input: 'src/next-time-ago.ts',
+  input: 'src/next-timeago.ts',
   output: [
     {
       file: pkg.main,
