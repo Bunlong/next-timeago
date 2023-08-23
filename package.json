@@ -1,32 +1,31 @@
 {
-  "name": "next-time-ago",
-  "version": "0.1.1",
-  "description": "A lightweight tiny time-ago component for your next React apps.",
+  "name": "next-timeago",
+  "version": "0.2.0",
+  "description": "React timeago component for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bunlong/next-time-ago.git"
+    "url": "git+https://github.com/Bunlong/next-timeago.git"
   },
   "bugs": {
-    "url": "https://github.com/Bunlong/next-time-ago.git/issues"
+    "url": "https://github.com/Bunlong/next-timeago.git/issues"
   },
   "keywords": [
-    "next-time-ago",
+    "next-timeago",
     "nextjs",
     "next",
     "reactjs",
     "react",
-    "time-ago",
     "timeago",
     "react-timeago"
   ],
-  "homepage": "https://github.com/Bunlong/next-time-ago",
-  "main": "dist/next-time-ago.js",
-  "module": "dist/next-time-ago.es.js",
-  "jsnext:main": "dist/next-time-ago.es.js",
-  "types": "dist/next-time-ago.d.ts",
-  "@comment unpkg": "dist/next-time-ago.umd.js",
+  "homepage": "https://github.com/Bunlong/next-timeago",
+  "main": "dist/next-timeago.js",
+  "module": "dist/next-timeago.es.js",
+  "jsnext:main": "dist/next-timeago.es.js",
+  "types": "dist/next-timeago.d.ts",
+  "@comment unpkg": "dist/next-timeago.umd.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
