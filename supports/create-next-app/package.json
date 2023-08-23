@@ -1,6 +1,6 @@
 {
   "name": "create-next-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.6",
-    "next-time-ago": "file:../..",
+    "@types/node": "20.5.3",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "next-timeago": "file:../..",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "8.10.66",
-    "@types/react": "18.0.11",
-    "@types/react-dom": "18.0.5",
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.1.6",
-    "typescript": "4.7.3"
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6"
   }
 }
